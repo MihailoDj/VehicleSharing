@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1062458216651",
+    "firebase_url": "https://vehiclesharing-6df3b.firebaseio.com",
+    "project_id": "vehiclesharing-6df3b",
+    "storage_bucket": "vehiclesharing-6df3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062458216651:android:2d67ef53908bf082cccb4e",
+        "android_client_info": {
+          "package_name": "com.example.mpos_projekat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062458216651-3slrr7v93np9ldnpeqvt5q8ubpp9uat2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mpos_projekat",
+            "certificate_hash": "3f2f97f36e49a58f2e1a46e093fb4243dbae63c6"
+          }
+        },
+        {
+          "client_id": "1062458216651-b7l61gs44t8b9659op0sqn5eur0lks84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDElUqHxuoXXP2pdaGVWg5LrnovlZnOlmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062458216651-b7l61gs44t8b9659op0sqn5eur0lks84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

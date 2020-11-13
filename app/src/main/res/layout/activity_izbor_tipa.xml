@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_bg"
+    tools:context=".IzborTipaActivity">
+
+    <ImageView
+        android:id="@+id/imageViewAuto"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="30dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="izaberiTipVozila"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewBicikl"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/orange_auto" />
+
+    <ImageView
+        android:id="@+id/imageViewTrotinet"
+        android:layout_width="125dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:clickable="true"
+        android:onClick="izaberiTipVozila"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewSkuter"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewBicikl"
+        app:srcCompat="@drawable/orange_trotinet" />
+
+    <ImageView
+        android:id="@+id/imageViewSkuter"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="izaberiTipVozila"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewTrotinet"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAuto"
+        app:srcCompat="@drawable/orange_skuter" />
+
+    <ImageView
+        android:id="@+id/imageViewBicikl"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="50dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="izaberiTipVozila"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewAuto"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/orange_bicikl" />
+
+    <TextView
+        android:id="@+id/txtNaslovIzbor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="Izaberite tip vozila"
+        android:textAlignment="textStart"
+        android:textColor="#FF8400"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

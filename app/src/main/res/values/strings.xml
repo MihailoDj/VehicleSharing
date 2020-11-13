@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Car Sharing</string>
+    <string name="title_activity_treci">Map</string>
+
+    <string-array name="tipovi">
+        <item>Auto</item>
+        <item>Bicikl</item>
+        <item>Skuter</item>
+        <item>Trotinet</item>
+    </string-array>
+</resources>
